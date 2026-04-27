@@ -1,11 +1,15 @@
 package edu.etec.ds.fundamentos
 
 fun evaluarPositivo(numero: Int): String {
-    TODO("Retornar \"Positivo\" si numero > 0, sino \"No positivo\"")
+    if (numero < 0)
+    return "No positivo"
+    else
+        return "Positivo"
 }
 
 fun clasificarNumero(numero: Int): String {
     TODO("Clasificar: Mayor a 10, Menor a 10, o Igual a 10")
+    if(numero > )
 }
 
 fun evaluarEdad(edad: Int): String {

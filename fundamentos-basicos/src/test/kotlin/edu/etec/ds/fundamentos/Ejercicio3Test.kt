@@ -33,6 +33,7 @@ class Ejercicio3Test {
     fun testFuncionConParametrosDefaultPersonalizado() {
         val resultado = saludarConDefault("Pedro")
         assertEquals("Hola, Pedro!", resultado)
+        // este test utiliza la misma funcion que la anterior
     }
 
     @Test
