@@ -72,7 +72,8 @@ fun contarVocales(texto: String): Int {
     for (c in texto.lowercase()) {
         if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
             contador++
-        } 
+        }
+        }
      return contador
 
 }

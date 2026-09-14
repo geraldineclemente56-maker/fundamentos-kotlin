@@ -38,6 +38,7 @@ fun clasificarNumeroWhen(numero: Int): String {
         numero < 0 -> "Negativo"
         else -> "Cero"
     }
+    }
 
 fun clasificarEdad(edad: Int): String {
      return when {

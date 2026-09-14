@@ -19,7 +19,7 @@ fun multiplicacion(a: Int, b: Int): Int {
 
 fun division(a: Int, b: Int): Int {
 
-    return 5
+    return a / b
 }
 
 fun modulo(a: Int, b: Int): Int {
